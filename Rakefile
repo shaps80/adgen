@@ -7,7 +7,7 @@ RSpec::Core::RakeTask.new
 
 task :default do
   ["rspec spec", "bundle exec cucumber"].each do |cmd|
-    puts "Starting to run #{cmd}..."
+    puts "\nStarting to run #{cmd}..."
     system("export DISPLAY=:99.0 && bundle exec #{cmd}")
     raise "#{cmd} failed!" unless $?.exitstatus == 0
   end
