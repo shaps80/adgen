@@ -6,7 +6,7 @@ GIT-style configuration for generation of AppleDoc documentation.
 
 Add this line to your application's Gemfile:
 
-    gem 'adgen'
+    $ gem 'adgen'
 
 And then execute:
 
@@ -14,15 +14,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install adgen
+		$ gem install adgen
 		
 ## First Use
 
-		adgen -init
+		$ adgen -init
 
 ## Usage
 
 On first use of the command, it will prompt you for settings, detect project or workspace, and setup your config file for quiet runs in the future.
 
-		adgen
+		$ adgen
 
