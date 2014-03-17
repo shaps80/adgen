@@ -1,6 +1,6 @@
 # adgen
 
-TODO: Write a gem description
+GIT-style configuration for generation of AppleDoc documentation.
 
 ## Installation
 
@@ -15,15 +15,14 @@ And then execute:
 Or install it yourself as:
 
     $ gem install adgen
+		
+## First Use
+
+adgen -init
 
 ## Usage
 
-TODO: Write usage instructions here
+	On first use of the command, it will prompt you for settings, detect project or workspace, and setup your config file for quiet runs in the future.
 
-## Contributing
+adgen 
 
-1. Fork it ( http://github.com/<my-github-username>/adgen/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
