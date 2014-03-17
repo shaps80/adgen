@@ -3,9 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'adgen/version'
 
-group :test do
-  gem 'rake'
-end
+gem 'rake'
 
 Gem::Specification.new do |spec|
   spec.name          = "adgen"
