@@ -18,11 +18,11 @@ Or install it yourself as:
 		
 ## First Use
 
-adgen -init
+		adgen -init
 
 ## Usage
 
-	On first use of the command, it will prompt you for settings, detect project or workspace, and setup your config file for quiet runs in the future.
+On first use of the command, it will prompt you for settings, detect project or workspace, and setup your config file for quiet runs in the future.
 
-adgen 
+		adgen
 
