@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/shaps80/adgen.png?branch=master)](https://travis-ci.org/shaps80/adgen)
+
 # adgen
 
 GIT-style configuration for generation of AppleDoc documentation.
